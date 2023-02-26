@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fcontainer{
+    left: -5.5rem;
+
+}
+.hv:hover{
+  border-bottom: 2px solid black;
+  /* color: aqua; */
+}
+.hr:hover{
+  border-bottom: 2px solid indigo ;
+
+}
+/* .sec{
+    margin-left: ;
+} */
+.un:hover{
+  text-decoration: underline;
+}
+.lt{
+  letter-spacing: 1rem
+}
+button:focus {
+  outline: none;
+}
+/* ================mq==================== */
+@media (min-width: 640px) {
+  button:hover {
+      transform: scale(1.1);
+  }
+}
+
+@media (max-width: 639px) {
+  button:hover {
+      background-color: #4b5563;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
